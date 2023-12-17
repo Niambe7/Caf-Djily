@@ -213,4 +213,31 @@ a{
         width: 50%;
     }
 
-    
+    .contact{
+        padding: 100px 0 100px 0;
+        min-height: 100vh;
+    }
+
+    .contact-form-container{
+        max-width: 600px;
+        margin: auto;
+    }
+
+    .contact-form-container form label{
+        display: block;
+        font-weight: 700;
+    }
+
+    .contact-form-container form input{
+
+        display: block;
+        width: 100%;
+        padding: 16px;
+        border: solid 1px #ddd;
+        border-radius: 3px;
+    }
+
+    .contact-form-container form textarea{
+        min-height: 80px;
+        width: 100%;
+    }

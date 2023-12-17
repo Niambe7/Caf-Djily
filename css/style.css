@@ -26,6 +26,11 @@ a{
     color: black;
 }
 
+.underline{
+    border-bottom: solid 1px #ddd;
+    padding-bottom: 10px;
+}
+
 /* header */
 
 .header{
@@ -186,3 +191,26 @@ a{
     footer p{
         margin-bottom: 0px;
     }
+
+    /* where */
+
+    .where{
+        padding: 180px 0px 100px 0px;
+        overflow: auto;
+        min-height: 100vh;
+    }
+
+    .where-image{
+        float: left;
+        width: 45%;
+        border: solid 1px #ddd;
+        border-radius: 5px;
+
+    }
+
+    .where-text{
+        float: right;
+        width: 50%;
+    }
+
+    
